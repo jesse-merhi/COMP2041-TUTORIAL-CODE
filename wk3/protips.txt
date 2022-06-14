@@ -1,0 +1,7 @@
+$() launches a sub shell.
+$(()) is arithmetic
+${} is for variables.
+2041 jq is how we can use it on the CSE machines!
+
+$# is number of arguments
+$@ is the arguments (Equivalent to $1 $2 etc.)
