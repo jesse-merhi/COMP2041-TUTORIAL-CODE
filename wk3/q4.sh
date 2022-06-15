@@ -21,9 +21,18 @@ case $# in
 	exit
 esac
 
+if [ "$FIRST" -eq "$FIRST" ] 2> /dev/null 
+then
+	:
+else
+	echo "$0: Error <FIRST> must be an integer." >& 2
+	exit
+fi
+
 CURRENT="$FIRST"
 while [ "$CURRENT" -le "$LAST" ] 
 do
 	echo "$CURRENT"
 	CURRENT=$(( CURRENT + INCREMENT ))
 done
+
