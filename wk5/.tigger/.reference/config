@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	fileMode = false
+	bare = false
+	logallrefupdates = true
+	worktree = /import/cage/5/z5312498/COMP2041-TUTORIAL-CODE/wk5
+[user]
+	email = tigger@example.com
+	name = tigger
