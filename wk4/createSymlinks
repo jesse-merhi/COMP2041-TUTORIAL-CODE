@@ -1,0 +1,5 @@
+#! /bin/dash
+
+for image_file in ~/friend/*; do
+    ln -s ~/friends/"$image_file" .
+done

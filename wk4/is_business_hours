@@ -1,0 +1,8 @@
+#! /bin/dash
+
+# Business hours: 9-17
+
+current_date="$(date "+%H")"
+
+test $current_date -lt 17 && test $current_date -gt 5
+

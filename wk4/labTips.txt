@@ -1,0 +1,16 @@
+Lab Tips:
+    Get you using the shell in a more typical way that you would use in real situations.
+    The orange questions have NO auto marking. Ask a friend to use your program! 
+    See if they can mess with it. Make it behave incorrectly. Do some testing!
+Ex1. 
+    Straight forward
+Ex2. 
+    The "display command" will not work on SSH, you need to use VNC or the lab computer.
+    Look into the usage of "read" in shell, it might be useful
+Ex3.
+    Involves creating text on an image. If you modify the same image several times
+    the text will likely overlap.
+    Your program should not modify the last modified date of the image. 
+    (Look into how you can change the modify date of a file)
+Ex4. 
+Shouldn't include anything completely new. You need to use ID3 -> Look into the usage of this. (manual)
