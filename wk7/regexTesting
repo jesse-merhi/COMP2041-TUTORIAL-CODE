@@ -1,0 +1,30 @@
+#! /usr/bin/env python3
+
+import re
+
+email = "cs2041@cse.unsw.edu.au"
+results = re.search(r'(.+)@(.+\..+)', email) # Search is like GREP
+
+sed -E "s/(PATTERN)(PATTERN)/\2\1/g"
+# match is like putting a ^ infront of the regex
+# fullmatch is like putting a ^ infront and $ at the end.
+print("Object: "+str(results))
+
+
+'''
+A match object has a number of useful attributes:
+
+Match.span() - the starting and ending index of the match
+Match.re.pattern - the regex pattern
+Match.string - the original string
+Match.group(0) - the match
+Match.group(N) - capture groups
+'''
+
+print("Starting and ending index of match: "+str(results.span()))
+print("Original Pattern: "+results.re.pattern)
+print("Original String: "+results.string)
+print("Resulting match: "+results.group(0))
+print("Capture group 1 (the domain): "+results.group(1))
+print(results.group(2))
+

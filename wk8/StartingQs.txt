@@ -1,0 +1,8 @@
+What types are inbuilt to Python?
+
+
+What other types exist?
+
+
+
+ 

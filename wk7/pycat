@@ -1,0 +1,17 @@
+#! /usr/bin/env python3
+import sys
+
+fileSpecified=False
+
+if len(sys.argv) <= 1:
+    for line in sys.stdin:
+       print(line,end="")
+    exit()
+
+#DONT RUN IF THERE ARE NO FILENAMES
+#INSTEAD RUN SYS.STDIN
+for file in sys.argv[1:]:
+    print(f"<== {file} ==> ")
+    for line in open(file):
+        print(line,end="")
+   
